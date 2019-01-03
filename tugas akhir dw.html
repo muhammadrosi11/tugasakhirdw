@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Izul Cyber Cafe</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script language="javascript" type="text/javascript" src="jquery.js"></script>
+	<script> // Jquery Equal Height Column 
+		function equalHeight(group) {
+			tallest = 0;
+			group.each(function() {
+				thisHeight = $(this).height();
+				if(thisHeight > tallest) {
+					tallest = thisHeight;
+				}
+			});
+			group.height(tallest);
+		}
+		$(document).ready(function() {
+			equalHeight($(".column"));
+		}); // End Jquery Equal Height Column 
+	</script>	
+</head>
+<body>
+	
+	<div id="container">
+	
+		<div id="header">
+		
+			<div id="menu">
+				<ul>
+					<li><a href="#" class="current"><span>HOME</span></a></li>
+					<li><a href="#">MENU</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</li>
+				</ul>
+			</div>
+			
+			<h1>MAMAMIA CAKE</h1>
+			
+			
+		</div> <!-- End Header -->
+		
+		<div id="content">
+		
+			<div id="sidebar" class="column">
+				<h2>NEW CAKE</h2>
+				<div class="product">
+					<img src="images/vv.jpg" />
+					<p class="product-title"> <a href="#">Almond Cherry Cupcake</a> </p>
+				</div>
+				<div class="product">
+					<img src="images/v.jpg" />
+					<p class="product-title"> <a href="#">Walmut Cake</a> </p>
+				</div>
+				<div class="product">
+					<img src="images/vvv.jpg" />
+					<p class="product-title"> <a href="#">Chocholate Grande</a> </p>
+				</div>
+			</div> <!-- End Sidebar -->
+			
+			<div id="main" class="column">
+				
+				<div id="welcome">
+					<h2>WELCOME</h2>
+					<div>
+						<p>Welcome to MAMAMIA CAKE. Please make the order you want. Because MAMAMIA CAKE provides various types of cakes that you want. Enjoy all the dishes we serve to you and feel all the delights in them. Make happiness in yourself because of its delicacy. Because if you are happy MAMAMIA CAKE will also be happy. Have a happy day at MAMAMIA CAKE.
+						<p align="right">owner - <b>M.Rosi</b></p>
+					</div>
+				</div> <!-- End Welcome -->
+				
+				<div id="recent-news">
+					<h2>TOP RATING CAKE'S</h2>
+					<div class="post">
+						<h2><a href="#">Pancakes and strawberry</a></h2>
+						<img src="images/cc.jpg" />
+						<p>Ingredients: 100 gr flour, 250 ml liquid milk, little salt, eggs 1 grain, enough margarine for spreads, mapple syrup, ice cream, melted chocolate.... <span class="more"><a href="#">Read more</a></span></p>
+						<p>RATING : 4.8</p>
+					</div>
+				
+					<div class="post">
+						<h2><a href="#">Strawberry Cake</a></h2>
+						<img src="images/cccc.jpg" />
+						<p>Ingredients:360 grams of flour,4 eggs,1/2 tsp baking soda,3/4 tsp,baking powder,200 grams of sugar,120 grams of butter.200 ml of liquid milk,strawberry aroma food coloring,10 strawberries, blend with a blender,100 grams of cream cheese... <span class="more"><a href="#">Read more</a></span></p>
+						<p>RATING : 4.6</p>
+					</div>
+					<p class="product-title"><a href="#">View All</a></p>
+				</div> <!-- End Recent News -->
+			</div> <!-- End Main -->
+			
+		</div> <!-- End Content -->
+		
+		<div id="footer">
+		
+			<div id="footer-menu">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">MENU</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">PHOTOS</a></li>
+					<li><a href="#">BLOG</a></li>
+				</ul>
+			</div> <!-- End Footer Menu -->
+			
+			<div id="copyright">
+				   Copyright 03/01/2019 by MAMAMIA CAKE
+			</div> <!-- End Copyright -->
+			
+		</div> <!-- End Footer -->
+		
+	</div> <!-- End Container -->
+	
+</body>	
+</html>
